@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+.text h3{
+    font-weight: bold;
+}
+.forms
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+}
+.forms form input{
+    border: 1px solid blue;
+    
+    background-color: #3CBC8D;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+
+}
+.forms form input:focus{
+    background-color:crimson;
+    color: white;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.forms form .form-group  label {
+    color: rgb(15, 16, 16);
+    font-weight: bold;
+    margin-left: -80%;
+}
+
+
+
+/*
+
+ //$subject="Simple Email in PHP";
+ //$body="Hi,THis is test for the email testing for website";
+ //$email1="pealmhmd2222@gmail.com";
+ //$headers="From:pealmhmd222@gmail.com";
+ //$query=mail($email1,$subject,$body);
+ //if($query)
+ //{
+     //echo "Hello send";
+ //}else{
+ //    echo "email not sent";
+ //}
+
+*/
